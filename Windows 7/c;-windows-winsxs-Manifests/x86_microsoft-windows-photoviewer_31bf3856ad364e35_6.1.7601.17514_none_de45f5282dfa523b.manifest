@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" copyright="Copyright (c) Microsoft Corporation. All Rights Reserved.">
+  <assemblyIdentity name="Microsoft-Windows-PhotoViewer" version="6.1.7601.17514" processorArchitecture="x86" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS" />
+  <dependency discoverable="no" resourceType="Resources">
+    <dependentAssembly dependencyType="prerequisite">
+      <assemblyIdentity name="Microsoft-Windows-PhotoViewer.Resources" version="6.1.7601.17514" processorArchitecture="x86" language="*" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS" />
+    </dependentAssembly>
+  </dependency>
+  <file name="PhotoViewer.dll" destinationPath="$(runtime.programFiles)\Windows Photo Viewer\" sourceName="PhotoViewer.dll" sourcePath=".\" importPath="$(build.nttree)\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">Y1U54UyXPqJNSmw1+ctnV/0T4JfzNqI3NmWaykTakyU=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <registryKeys>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{D63A1416-FCEC-4431-862F-E8056223DD03}" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="Windows Photo Viewer DropTarget" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{D63A1416-FCEC-4431-862F-E8056223DD03}\InprocServer32" owner="false">
+      <registryValue name="" valueType="REG_EXPAND_SZ" value="%ProgramFiles%\Windows Photo Viewer\PhotoViewer.dll" operationHint="replace" owner="true" />
+      <registryValue name="ThreadingModel" valueType="REG_SZ" value="Apartment" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{D63A1416-FCEC-4431-862F-E8056223DD03}\ProgID" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="Microsoft.Photos.ViewerDropTarget.1" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{D63A1416-FCEC-4431-862F-E8056223DD03}\VersionIndependentProgID" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="Microsoft.Photos.ViewerDropTarget" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Microsoft.Photos.ViewerDropTarget" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="Windows Photo Viewer DropTarget" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Microsoft.Photos.ViewerDropTarget\CLSID" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{D63A1416-FCEC-4431-862F-E8056223DD03}" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Microsoft.Photos.ViewerDropTarget\CurVer" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="Microsoft.Photos.ViewerDropTarget.1" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Microsoft.Photos.ViewerDropTarget.1" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="Windows Photo Viewer DropTarget" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Microsoft.Photos.ViewerDropTarget.1\CLSID" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{D63A1416-FCEC-4431-862F-E8056223DD03}" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{32624F4B-F1D5-4877-989E-555640109D2B}" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="Windows Photo Viewer Gallery Interface" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{32624F4B-F1D5-4877-989E-555640109D2B}\InprocServer32" owner="false">
+      <registryValue name="" valueType="REG_EXPAND_SZ" value="%ProgramFiles%\Windows Photo Viewer\PhotoViewer.dll" operationHint="replace" owner="true" />
+      <registryValue name="ThreadingModel" valueType="REG_SZ" value="Apartment" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{32624F4B-F1D5-4877-989E-555640109D2B}\ProgID" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="Microsoft.Photos.ViewerGalleryInterface.1" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{32624F4B-F1D5-4877-989E-555640109D2B}\VersionIndependentProgID" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="Microsoft.Photos.ViewerGalleryInterface" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Microsoft.Photos.ViewerGalleryInterface" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="Windows Photo Viewer DropTarget" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Microsoft.Photos.ViewerGalleryInterface\CLSID" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{32624F4B-F1D5-4877-989E-555640109D2B}" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Microsoft.Photos.ViewerGalleryInterface\CurVer" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="Microsoft.Photos.ViewerGalleryInterface.1" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Microsoft.Photos.ViewerGalleryInterface.1" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="Windows Photo Viewer DropTarget" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Microsoft.Photos.ViewerGalleryInterface.1\CLSID" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{32624F4B-F1D5-4877-989E-555640109D2B}" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\AppID\{76D0CB12-7604-4048-B83C-1005C7DDC503}" owner="false">
+      <registryValue name="DllSurrogate" valueType="REG_SZ" value="" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Applications" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\Applications\photoviewer.dll" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\Applications\photoviewer.dll\shell" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\Applications\photoviewer.dll\shell\open" owner="false">
+      <registryValue name="MuiVerb" valueType="REG_SZ" value="@photoviewer.dll,-3043" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Applications\photoviewer.dll\shell\open\command" owner="false">
+      <registryValue name="" valueType="REG_EXPAND_SZ" value="%SystemRoot%\System32\rundll32.exe &quot;%ProgramFiles%\Windows Photo Viewer\PhotoViewer.dll&quot;, ImageView_Fullscreen %1" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Applications\photoviewer.dll\shell\open\DropTarget" owner="false">
+      <registryValue name="Clsid" valueType="REG_SZ" value="{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Applications\photoviewer.dll\shell\print" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\Applications\photoviewer.dll\shell\print\command" owner="false">
+      <registryValue name="" valueType="REG_EXPAND_SZ" value="%SystemRoot%\System32\rundll32.exe &quot;%ProgramFiles%\Windows Photo Viewer\PhotoViewer.dll&quot;, ImageView_Fullscreen %1" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Applications\photoviewer.dll\shell\print\DropTarget" owner="false">
+      <registryValue name="Clsid" valueType="REG_SZ" value="{60fd46de-f830-4894-a628-6fa81bc0190d}" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="Windows Photo Viewer Image Verbs" operationHint="replace" owner="true" />
+      <registryValue name="ImplementsVerbs" valueType="REG_SZ" value="preview;printto;rotate90;rotate270;setwallpaper;slideshow" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}\InProcServer32" owner="false">
+      <registryValue name="" valueType="REG_EXPAND_SZ" value="%ProgramFiles%\Windows Photo Viewer\PhotoViewer.dll" operationHint="replace" owner="true" />
+      <registryValue name="ThreadingModel" valueType="REG_SZ" value="Apartment" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}\SupportedProtocols" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="*" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{E598560B-28D5-46aa-A14A-8A3BEA34B576}" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="Windows Photo Viewer Video Verbs" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{E598560B-28D5-46aa-A14A-8A3BEA34B576}\InProcServer32" owner="false">
+      <registryValue name="" valueType="REG_EXPAND_SZ" value="%ProgramFiles%\Windows Photo Viewer\PhotoViewer.dll" operationHint="replace" owner="true" />
+      <registryValue name="ThreadingModel" valueType="REG_SZ" value="Apartment" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}\shellex" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}\shellex\MayChangeDefaultMenu" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\video" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\video\ShellEx" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\video\ShellEx\ContextMenuHandlers" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\video\ShellEx\ContextMenuHandlers\ShellVideoSlideshow" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{E598560B-28D5-46aa-A14A-8A3BEA34B576}" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\WPDContextMenu.Image" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\WPDContextMenu.Image\shellex" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\WPDContextMenu.Image\shellex\ContextMenuHandlers" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\WPDContextMenu.Image\shellex\ContextMenuHandlers\ShImageViewer" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\WPDContextMenu.Video" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\WPDContextMenu.Video\shellex" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\WPDContextMenu.Video\shellex\ContextMenuHandlers" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\WPDContextMenu.Video\shellex\ContextMenuHandlers\ShImageViewer" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{E598560B-28D5-46aa-A14A-8A3BEA34B576}" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp\ShellEx" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp\ShellEx\ContextMenuHandlers" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp\ShellEx\ContextMenuHandlers\ShellImagePreview" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp\OpenWithList" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp\OpenWithList\PhotoViewer.dll" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.dib" owner="false">
+      <registryValue name="ImageOptionFlags" valueType="REG_DWORD" value="0x00000001" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.dib\ShellEx" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.dib\ShellEx\ContextMenuHandlers" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.dib\ShellEx\ContextMenuHandlers\ShellImagePreview" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.dib\OpenWithList" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.dib\OpenWithList\PhotoViewer.dll" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.gif" owner="false">
+      <registryValue name="ImageOptionFlags" valueType="REG_DWORD" value="0x00000001" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.gif\ShellEx" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.gif\ShellEx\ContextMenuHandlers" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.gif\ShellEx\ContextMenuHandlers\ShellImagePreview" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.gif\OpenWithList" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.gif\OpenWithList\PhotoViewer.dll" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.ico" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.ico\ShellEx" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.ico\ShellEx\ContextMenuHandlers" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.ico\ShellEx\ContextMenuHandlers\ShellImagePreview" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.ico\OpenWithList" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.ico\OpenWithList\PhotoViewer.dll" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.jfif" owner="false">
+      <registryValue name="ImageOptionFlags" valueType="REG_DWORD" value="0x00000001" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.jfif\ShellEx" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.jfif\ShellEx\ContextMenuHandlers" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.jfif\ShellEx\ContextMenuHandlers\ShellImagePreview" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.jfif\OpenWithList" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.jfif\OpenWithList\PhotoViewer.dll" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg" owner="false">
+      <registryValue name="ImageOptionFlags" valueType="REG_DWORD" value="0x00000001" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\ShellEx" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\ShellEx\ContextMenuHandlers" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\ShellEx\ContextMenuHandlers\ShellImagePreview" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\OpenWithList" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\OpenWithList\PhotoViewer.dll" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpe" owner="false">
+      <registryValue name="ImageOptionFlags" valueType="REG_DWORD" value="0x00000001" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpe\ShellEx" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpe\ShellEx\ContextMenuHandlers" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpe\ShellEx\ContextMenuHandlers\ShellImagePreview" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpe\OpenWithList" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpe\OpenWithList\PhotoViewer.dll" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpeg" owner="false">
+      <registryValue name="ImageOptionFlags" valueType="REG_DWORD" value="0x00000001" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpeg\ShellEx" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpeg\ShellEx\ContextMenuHandlers" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpeg\ShellEx\ContextMenuHandlers\ShellImagePreview" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpeg\OpenWithList" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpeg\OpenWithList\PhotoViewer.dll" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.png" owner="false">
+      <registryValue name="ImageOptionFlags" valueType="REG_DWORD" value="0x00000001" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.png\ShellEx" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.png\ShellEx\ContextMenuHandlers" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.png\ShellEx\ContextMenuHandlers\ShellImagePreview" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.png\OpenWithList" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.png\OpenWithList\PhotoViewer.dll" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.rle" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.rle\ShellEx" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.rle\ShellEx\ContextMenuHandlers" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.rle\ShellEx\ContextMenuHandlers\ShellImagePreview" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.rle\OpenWithList" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.rle\OpenWithList\PhotoViewer.dll" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.tif" owner="false">
+      <registryValue name="ImageOptionFlags" valueType="REG_DWORD" value="0x00000001" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.tif\ShellEx" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.tif\ShellEx\ContextMenuHandlers" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.tif\ShellEx\ContextMenuHandlers\ShellImagePreview" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.tif\OpenWithList" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.tif\OpenWithList\PhotoViewer.dll" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.tiff" owner="false">
+      <registryValue name="ImageOptionFlags" valueType="REG_DWORD" value="0x00000001" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.tiff\ShellEx" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.tiff\ShellEx\ContextMenuHandlers" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.tiff\ShellEx\ContextMenuHandlers\ShellImagePreview" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.tiff\OpenWithList" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.tiff\OpenWithList\PhotoViewer.dll" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.wdp" owner="false">
+      <registryValue name="ImageOptionFlags" valueType="REG_DWORD" value="0x00000001" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.wdp\ShellEx" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.wdp\ShellEx\ContextMenuHandlers" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.wdp\ShellEx\ContextMenuHandlers\ShellImagePreview" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.wdp\OpenWithList" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\.wdp\OpenWithList\PhotoViewer.dll" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\image" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\print" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\print\DropTarget" owner="false">
+      <registryValue name="Clsid" valueType="REG_SZ" value="{60fd46de-f830-4894-a628-6fa81bc0190d}" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\print\command" owner="false">
+      <registryValue name="" valueType="REG_EXPAND_SZ" value="%SystemRoot%\System32\rundll32.exe &quot;%ProgramFiles%\Windows Photo Viewer\PhotoViewer.dll&quot;, ImageView_Fullscreen %1" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_LOCAL_MACHINE\Software\RegisteredApplications" owner="false">
+      <registryValue name="Windows Photo Viewer" valueType="REG_SZ" value="Software\Microsoft\Windows Photo Viewer\Capabilities" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_LOCAL_MACHINE\Software\Microsoft\Windows Photo Viewer\Capabilities" owner="false">
+      <registryValue name="ApplicationDescription" valueType="REG_SZ" value="@%ProgramFiles%\Windows Photo Viewer\photoviewer.dll,-3069" operationHint="replace" owner="true" />
+      <registryValue name="ApplicationName" valueType="REG_SZ" value="@%ProgramFiles%\Windows Photo Viewer\photoviewer.dll,-3009" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_LOCAL_MACHINE\Software\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations" owner="false">
+      <registryValue name=".bmp" valueType="REG_SZ" value="PhotoViewer.FileAssoc.Bitmap" operationHint="replace" owner="true" />
+      <registryValue name=".dib" valueType="REG_SZ" value="PhotoViewer.FileAssoc.Bitmap" operationHint="replace" owner="true" />
+      <registryValue name=".gif" valueType="REG_SZ" value="PhotoViewer.FileAssoc.Gif" operationHint="replace" owner="true" />
+      <registryValue name=".jfif" valueType="REG_SZ" value="PhotoViewer.FileAssoc.JFIF" operationHint="replace" owner="true" />
+      <registryValue name=".jpe" valueType="REG_SZ" value="PhotoViewer.FileAssoc.Jpeg" operationHint="replace" owner="true" />
+      <registryValue name=".jpeg" valueType="REG_SZ" value="PhotoViewer.FileAssoc.Jpeg" operationHint="replace" owner="true" />
+      <registryValue name=".jpg" valueType="REG_SZ" value="PhotoViewer.FileAssoc.Jpeg" operationHint="replace" owner="true" />
+      <registryValue name=".png" valueType="REG_SZ" value="PhotoViewer.FileAssoc.Png" operationHint="replace" owner="true" />
+      <registryValue name=".wdp" valueType="REG_SZ" value="PhotoViewer.FileAssoc.Wdp" operationHint="replace" owner="true" />
+      <registryValue name=".tif" valueType="REG_SZ" value="PhotoViewer.FileAssoc.Tiff" operationHint="replace" owner="true" />
+      <registryValue name=".tiff" valueType="REG_SZ" value="PhotoViewer.FileAssoc.Tiff" operationHint="replace" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Bitmap" owner="false">
+      <registryValue name="FriendlyTypeName" valueType="REG_EXPAND_SZ" value="@%ProgramFiles%\Windows Photo Viewer\PhotoViewer.dll,-3056" operationHint="replace" owner="true" />
+      <registryValue name="ImageOptionFlags" valueType="REG_DWORD" value="0x00000001" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Bitmap\DefaultIcon" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="%SystemRoot%\System32\imageres.dll,-70" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Bitmap\shell" owner="false">
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Bitmap\shell\open" owner="false">
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Bitmap\shell\open\command" owner="false">
+      <registryValue name="" valueType="REG_EXPAND_SZ" value="%SystemRoot%\System32\rundll32.exe &quot;%ProgramFiles%\Windows Photo Viewer\PhotoViewer.dll&quot;, ImageView_Fullscreen %1" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Bitmap\shell\open\DropTarget" owner="false">
+      <registryValue name="Clsid" valueType="REG_SZ" value="{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.JFIF" owner="false">
+      <registryValue name="FriendlyTypeName" valueType="REG_EXPAND_SZ" value="@%ProgramFiles%\Windows Photo Viewer\PhotoViewer.dll,-3055" operationHint="replace" owner="true" />
+      <registryValue name="EditFlags" valueType="REG_DWORD" value="0x00010000" operationHint="replace" owner="true" />
+      <registryValue name="ImageOptionFlags" valueType="REG_DWORD" value="0x00000001" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.JFIF\DefaultIcon" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="%SystemRoot%\System32\imageres.dll,-72" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.JFIF\shell" owner="false">
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.JFIF\shell\open" owner="false">
+      <registryValue name="MuiVerb" valueType="REG_EXPAND_SZ" value="@%ProgramFiles%\Windows Photo Viewer\photoviewer.dll,-3043" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.JFIF\shell\open\command" owner="false">
+      <registryValue name="" valueType="REG_EXPAND_SZ" value="%SystemRoot%\System32\rundll32.exe &quot;%ProgramFiles%\Windows Photo Viewer\PhotoViewer.dll&quot;, ImageView_Fullscreen %1" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.JFIF\shell\open\DropTarget" owner="false">
+      <registryValue name="Clsid" valueType="REG_SZ" value="{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Png" owner="false">
+      <registryValue name="FriendlyTypeName" valueType="REG_EXPAND_SZ" value="@%ProgramFiles%\Windows Photo Viewer\PhotoViewer.dll,-3057" operationHint="replace" owner="true" />
+      <registryValue name="ImageOptionFlags" valueType="REG_DWORD" value="0x00000001" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Png\DefaultIcon" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="%SystemRoot%\System32\imageres.dll,-71" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Png\shell" owner="false">
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Png\shell\open" owner="false">
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Png\shell\open\command" owner="false">
+      <registryValue name="" valueType="REG_EXPAND_SZ" value="%SystemRoot%\System32\rundll32.exe &quot;%ProgramFiles%\Windows Photo Viewer\PhotoViewer.dll&quot;, ImageView_Fullscreen %1" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Png\shell\open\DropTarget" owner="false">
+      <registryValue name="Clsid" valueType="REG_SZ" value="{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Tiff" owner="false">
+      <registryValue name="FriendlyTypeName" valueType="REG_EXPAND_SZ" value="@%ProgramFiles%\Windows Photo Viewer\PhotoViewer.dll,-3058" operationHint="replace" owner="true" />
+      <registryValue name="ImageOptionFlags" valueType="REG_DWORD" value="0x00000001" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Tiff\DefaultIcon" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="%SystemRoot%\System32\imageres.dll,-122" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Tiff\shell" owner="false">
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Tiff\shell\open" owner="false">
+      <registryValue name="MuiVerb" valueType="REG_EXPAND_SZ" value="@%ProgramFiles%\Windows Photo Viewer\photoviewer.dll,-3043" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Tiff\shell\open\command" owner="false">
+      <registryValue name="" valueType="REG_EXPAND_SZ" value="%SystemRoot%\System32\rundll32.exe &quot;%ProgramFiles%\Windows Photo Viewer\PhotoViewer.dll&quot;, ImageView_Fullscreen %1" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Tiff\shell\open\DropTarget" owner="false">
+      <registryValue name="Clsid" valueType="REG_SZ" value="{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Wdp" owner="false">
+      <registryValue name="EditFlags" valueType="REG_DWORD" value="0x00010000" operationHint="replace" owner="true" />
+      <registryValue name="ImageOptionFlags" valueType="REG_DWORD" value="0x00000001" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Wdp\DefaultIcon" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="%SystemRoot%\System32\wmphoto.dll,-400" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Wdp\shell" owner="false">
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Wdp\shell\open" owner="false">
+      <registryValue name="MuiVerb" valueType="REG_EXPAND_SZ" value="@%ProgramFiles%\Windows Photo Viewer\photoviewer.dll,-3043" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Wdp\shell\open\command" owner="false">
+      <registryValue name="" valueType="REG_EXPAND_SZ" value="%SystemRoot%\System32\rundll32.exe &quot;%ProgramFiles%\Windows Photo Viewer\PhotoViewer.dll&quot;, ImageView_Fullscreen %1" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Wdp\shell\open\DropTarget" owner="false">
+      <registryValue name="Clsid" valueType="REG_SZ" value="{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Jpeg" owner="false">
+      <registryValue name="FriendlyTypeName" valueType="REG_EXPAND_SZ" value="@%ProgramFiles%\Windows Photo Viewer\PhotoViewer.dll,-3055" operationHint="replace" owner="true" />
+      <registryValue name="EditFlags" valueType="REG_DWORD" value="0x00010000" operationHint="replace" owner="true" />
+      <registryValue name="ImageOptionFlags" valueType="REG_DWORD" value="0x00000001" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Jpeg\DefaultIcon" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="%SystemRoot%\System32\imageres.dll,-72" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Jpeg\shell" owner="false">
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Jpeg\shell\open" owner="false">
+      <registryValue name="MuiVerb" valueType="REG_EXPAND_SZ" value="@%ProgramFiles%\Windows Photo Viewer\photoviewer.dll,-3043" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Jpeg\shell\open\command" owner="false">
+      <registryValue name="" valueType="REG_EXPAND_SZ" value="%SystemRoot%\System32\rundll32.exe &quot;%ProgramFiles%\Windows Photo Viewer\PhotoViewer.dll&quot;, ImageView_Fullscreen %1" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\PhotoViewer.FileAssoc.Jpeg\shell\open\DropTarget" owner="false">
+      <registryValue name="Clsid" valueType="REG_SZ" value="{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{76D0CB12-7604-4048-B83C-1005C7DDC503}" owner="false">
+      <registryValue name="AppID" valueType="REG_SZ" value="{76D0CB12-7604-4048-B83C-1005C7DDC503}" operationHint="replace" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{76D0CB12-7604-4048-B83C-1005C7DDC503}\InProcServer32" owner="false">
+      <registryValue name="" valueType="REG_EXPAND_SZ" value="%ProgramFiles%\Windows Photo Viewer\PhotoViewer.dll" operationHint="replace" owner="true" />
+      <registryValue name="ThreadingModel" valueType="REG_SZ" value="Apartment" operationHint="replace" owner="true" />
+    </registryKey>
+  </registryKeys>
+  <trustInfo>
+    <security>
+      <accessControl>
+        <securityDescriptorDefinitions>
+          <securityDescriptorDefinition name="WRP_FILE_DEFAULT_SDDL" sddl="O:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464G:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464D:P(A;;FA;;;S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464)(A;;GRGX;;;BA)(A;;GRGX;;;SY)(A;;GRGX;;;BU)S:(AU;FASA;0x000D0116;;;WD)" operationHint="replace" description="Default SDDL for Windows Resource Protected file" />
+          <securityDescriptorDefinition name="WRP_REGKEY_DEFAULT_SDDL" sddl="O:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464G:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464D:P(A;CI;GA;;;S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464)(A;CI;GR;;;SY)(A;CI;GR;;;BA)(A;CI;GR;;;BU)" operationHint="replace" />
+        </securityDescriptorDefinitions>
+      </accessControl>
+    </security>
+  </trustInfo>
+  <localization>
+    <resources culture="en-US">
+      <stringTable>
+        <string id="description1" value="Manifest for PhotoViewer.Dll" />
+        <string id="description3" value="Default SDDL for Windows Resource Protected file" />
+        <string id="description5" value="Default SDDL for Windows Resource Protected registry key" />
+        <string id="displayName0" value="PhotoViewer.Dll" />
+        <string id="displayName2" value="WRP_FILE_DEFAULT_SDDL" />
+        <string id="displayName4" value="WRP_REGKEY_DEFAULT_SDDL" />
+      </stringTable>
+    </resources>
+  </localization>
+  <configuration xmlns="urn:schemas-microsoft-com:asm.v3" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State">
+    <configurationSchema>
+      <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="Microsoft-Windows-PhotoGalleryViewer" targetNamespace="Microsoft-Windows-PhotoGalleryViewer">
+        <xsd:element default="@%ProgramFiles%\Windows Photo Viewer\photoviewer.dll,-3043" name="HKEY_CLASSES_ROOT_icofile_shell_open" type="xsd:string" wcm:handler="regkey('HKEY_CLASSES_ROOT\icofile\shell\open')" wcm:legacyName="MuiVerb" wcm:legacyType="REG_EXPAND_SZ" />
+        <xsd:element default="%SystemRoot%\System32\rundll32.exe &quot;%ProgramFiles%\Windows Photo Viewer\PhotoViewer.dll&quot;, ImageView_Fullscreen %1" name="HKEY_CLASSES_ROOT_icofile_shell_open_command" type="xsd:string" wcm:handler="regkey('HKEY_CLASSES_ROOT\icofile\shell\open\command')" wcm:legacyName="" wcm:legacyType="REG_EXPAND_SZ" />
+        <xsd:element default="{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}" name="HKEY_CLASSES_ROOT_icofile_shell_open_droptarget" type="xsd:string" wcm:handler="regkey('HKEY_CLASSES_ROOT\icofile\shell\open\DropTarget')" wcm:legacyName="Clsid" wcm:legacyType="REG_SZ" />
+        <xsd:element default="@%ProgramFiles%\Windows Photo Viewer\photoviewer.dll,-3043" name="HKEY_CLASSES_ROOT_jpegfile_shell_open" type="xsd:string" wcm:handler="regkey('HKEY_CLASSES_ROOT\jpegfile\shell\open')" wcm:legacyName="MuiVerb" wcm:legacyType="REG_EXPAND_SZ" />
+        <xsd:element default="%SystemRoot%\System32\rundll32.exe &quot;%ProgramFiles%\Windows Photo Viewer\PhotoViewer.dll&quot;, ImageView_Fullscreen %1" name="HKEY_CLASSES_ROOT_jpegfile_shell_open_command" type="xsd:string" wcm:handler="regkey('HKEY_CLASSES_ROOT\jpegfile\shell\open\command')" wcm:legacyName="" wcm:legacyType="REG_EXPAND_SZ" />
+        <xsd:element default="{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}" name="HKEY_CLASSES_ROOT_jpegfile_shell_open_droptarget" type="xsd:string" wcm:handler="regkey('HKEY_CLASSES_ROOT\jpegfile\shell\open\DropTarget')" wcm:legacyName="Clsid" wcm:legacyType="REG_SZ" />
+        <xsd:element default="@%ProgramFiles%\Windows Photo Viewer\photoviewer.dll,-3043" name="HKEY_CLASSES_ROOT_Paint_Picture_shell_open" type="xsd:string" wcm:handler="regkey('HKEY_CLASSES_ROOT\Paint.Picture\shell\open')" wcm:legacyName="MuiVerb" wcm:legacyType="REG_EXPAND_SZ" />
+        <xsd:element default="%SystemRoot%\System32\rundll32.exe &quot;%ProgramFiles%\Windows Photo Viewer\PhotoViewer.dll&quot;, ImageView_Fullscreen %1" name="HKEY_CLASSES_ROOT_Paint_Picture_shell_open_command" type="xsd:string" wcm:handler="regkey('HKEY_CLASSES_ROOT\Paint.Picture\shell\open\command')" wcm:legacyName="" wcm:legacyType="REG_EXPAND_SZ" />
+        <xsd:element default="{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}" name="HKEY_CLASSES_ROOT_Paint_Picture_shell_open_droptarget" type="xsd:string" wcm:handler="regkey('HKEY_CLASSES_ROOT\Paint.Picture\shell\open\DropTarget')" wcm:legacyName="Clsid" wcm:legacyType="REG_SZ" />
+        <xsd:element default="@%ProgramFiles%\Windows Photo Viewer\photoviewer.dll,-3043" name="HKEY_CLASSES_ROOT_pjpegfile_shell_open" type="xsd:string" wcm:handler="regkey('HKEY_CLASSES_ROOT\pjpegfile\shell\open')" wcm:legacyName="MuiVerb" wcm:legacyType="REG_EXPAND_SZ" />
+        <xsd:element default="%SystemRoot%\System32\rundll32.exe &quot;%ProgramFiles%\Windows Photo Viewer\PhotoViewer.dll&quot;, ImageView_Fullscreen %1" name="HKEY_CLASSES_ROOT_pjpegfile_shell_open_command" type="xsd:string" wcm:handler="regkey('HKEY_CLASSES_ROOT\pjpegfile\shell\open\command')" wcm:legacyName="" wcm:legacyType="REG_EXPAND_SZ" />
+        <xsd:element default="{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}" name="HKEY_CLASSES_ROOT_pjpegfile_shell_open_droptarget" type="xsd:string" wcm:handler="regkey('HKEY_CLASSES_ROOT\pjpegfile\shell\open\DropTarget')" wcm:legacyName="Clsid" wcm:legacyType="REG_SZ" />
+        <xsd:element default="@%ProgramFiles%\Windows Photo Viewer\photoviewer.dll,-3043" name="HKEY_CLASSES_ROOT_pngfile_shell_open" type="xsd:string" wcm:handler="regkey('HKEY_CLASSES_ROOT\pngfile\shell\open')" wcm:legacyName="MuiVerb" wcm:legacyType="REG_EXPAND_SZ" />
+        <xsd:element default="%SystemRoot%\System32\rundll32.exe &quot;%ProgramFiles%\Windows Photo Viewer\PhotoViewer.dll&quot;, ImageView_Fullscreen %1" name="HKEY_CLASSES_ROOT_pngfile_shell_open_command" type="xsd:string" wcm:handler="regkey('HKEY_CLASSES_ROOT\pngfile\shell\open\command')" wcm:legacyName="" wcm:legacyType="REG_EXPAND_SZ" />
+        <xsd:element default="{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}" name="HKEY_CLASSES_ROOT_pngfile_shell_open_droptarget" type="xsd:string" wcm:handler="regkey('HKEY_CLASSES_ROOT\pngfile\shell\open\DropTarget')" wcm:legacyName="Clsid" wcm:legacyType="REG_SZ" />
+        <xsd:element default="@%ProgramFiles%\Windows Photo Viewer\photoviewer.dll,-3043" name="HKEY_CLASSES_ROOT_tifimage_document_shell_open" type="xsd:string" wcm:handler="regkey('HKEY_CLASSES_ROOT\TIFImage.Document\shell\open')" wcm:legacyName="MuiVerb" wcm:legacyType="REG_EXPAND_SZ" />
+        <xsd:element default="%SystemRoot%\System32\rundll32.exe &quot;%ProgramFiles%\Windows Photo Viewer\PhotoViewer.dll&quot;, ImageView_Fullscreen %1" name="HKEY_CLASSES_ROOT_tifimage_document_shell_open_command" type="xsd:string" wcm:handler="regkey('HKEY_CLASSES_ROOT\TIFImage.Document\shell\open\command')" wcm:legacyName="" wcm:legacyType="REG_EXPAND_SZ" />
+        <xsd:element default="{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}" name="HKEY_CLASSES_ROOT_tifimage_document_shell_open_droptarget" type="xsd:string" wcm:handler="regkey('HKEY_CLASSES_ROOT\TIFImage.Document\shell\open\DropTarget')" wcm:legacyName="Clsid" wcm:legacyType="REG_SZ" />
+        <xsd:element default="@%ProgramFiles%\Windows Photo Viewer\photoviewer.dll,-3043" name="HKEY_CLASSES_ROOT_wdpfile_shell_open" type="xsd:string" wcm:handler="regkey('HKEY_CLASSES_ROOT\wdpfile\shell\open')" wcm:legacyName="MuiVerb" wcm:legacyType="REG_EXPAND_SZ" />
+        <xsd:element default="%SystemRoot%\System32\rundll32.exe &quot;%ProgramFiles%\Windows Photo Viewer\PhotoViewer.dll&quot;, ImageView_Fullscreen %1" name="HKEY_CLASSES_ROOT_wdpfile_shell_open_command" type="xsd:string" wcm:handler="regkey('HKEY_CLASSES_ROOT\wdpfile\shell\open\command')" wcm:legacyName="" wcm:legacyType="REG_EXPAND_SZ" />
+        <xsd:element default="{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}" name="HKEY_CLASSES_ROOT_wdpfile_shell_open_droptarget" type="xsd:string" wcm:handler="regkey('HKEY_CLASSES_ROOT\wdpfile\shell\open\DropTarget')" wcm:legacyName="Clsid" wcm:legacyType="REG_SZ" />
+      </xsd:schema>
+    </configurationSchema>
+    <metadata>
+      <elements />
+    </metadata>
+  </configuration>
+</assembly>
